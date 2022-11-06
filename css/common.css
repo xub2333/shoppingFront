@@ -1,0 +1,128 @@
+.nav {
+    background-color: #333333;
+    height: 50px;
+}
+
+.wrapper{
+    width: 1235px;
+    margin: 0 auto;
+}
+
+.nav .wrapper{
+    height: 50px;
+}
+
+.indexTitle .wrapper{
+    margin: 0 auto;
+    /* background-color: rgb(40, 224, 104); */
+    overflow: hidden;
+}
+.nav ul li{
+    width: 90px;
+    height: 16px;
+    border-right: 1px solid #dcdcdc;
+    padding-left: 16px; 
+    margin-top: 20px;
+    float: left;
+    line-height:16px;
+
+}
+
+.nav li a{
+    display: inline-block;
+    color: #dcdcdc;
+    font-size: 10px;
+}   
+.nav ul li:nth-last-child(1){
+    border-right: none;
+}
+
+
+.footer{
+    height: 340px;
+    width: auto;
+    background-color:#333333;
+}
+.merit{
+    height: 172px;
+    /* background-color: rgb(32, 141, 24); */
+}
+
+.merit ul{
+margin-left: 270px;
+}
+
+.merit ul li{
+    height: 172px;
+    /* background-color: rgb(136, 41, 113); */
+    float: left;
+    margin-right: 300px;
+    
+}
+.merit ul li a{
+    position: relative;
+    color: #ffffff;
+    line-height: 172px;
+    font-size: 34px;
+}
+.merit ul li a span{
+    position: absolute;
+    line-height: 172px;
+    display: inline-block;
+    height: 58px;
+    width: 58px;
+    background-image: url(../images/sprites.png);
+    right: 142px;
+    top:-10px
+}
+.merit ul li:nth-child(2) a span{
+    background-image: url(../images/sprites.png);
+    background-position: -130px 0px;
+}
+.merit ul li:nth-child(3) a span{
+    background-image: url(../images/sprites.png);
+    background-position: -65px 0px;
+}
+.aboutUs{
+    position: relative;
+    height: 165px;
+    
+}
+
+.aboutUsDetile{
+    position: absolute;
+    height: 102px;
+    width: 1390px;
+    /* background-color: rgb(154, 30, 30); */
+    margin-left: 136px;
+    border-top:3px solid #434343;
+    text-align: center;
+}
+.aboutUsDetile ul{
+    display: table;
+    margin: 0 auto;
+    margin-top: 42px;
+}
+
+.aboutUsDetile ul li{
+    float: left;
+    padding: 3px;
+    line-height: 11px;
+
+}
+
+.aboutUsDetile ul li a{
+    color: #999999;
+    border-right: 2px solid #999999;
+    padding-right: 6px;
+    
+}
+
+.aboutUsDetile ul li:nth-last-child(1) a{
+    border-right: none;
+}
+
+.aboutUsDetile p{
+    color: #999999;
+    margin-top: 30px;
+}
